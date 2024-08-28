@@ -1,195 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
-      rel="stylesheet"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <meta charset="utf-8" />
-    <title>My Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <!-- <img class="" src="./images/A 2d photo realistic of a strong laughing wolf, cool attitude.png" alt=""> -->
-        <h1>Newbie</h1>
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
-          <li class="nav__item"><a class="nav__link" href="portfolio.html">Portfolio</a></li>
-          <li class="nav__item"><a class="nav__link" href="#services">My Services</a></li>
-          <li class="nav__item"><a class="nav__link" href="#about">About Me</a></li>
-          <li class="nav__item"><a class="nav__link" href="#work">Work</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Introduction -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I'm <strong>Newbie</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img
-        class="intro__img"
-        src="./images/cute-handsome-anime-boy-blue.avif"
-        alt=""
-      />
-    </section>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <meta charset="utf-8" />
+  <title>My Portfolio</title>
+</head>
 
-    <!-- My Services -->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I do</h2>
-      <div class="services">
-        <!-- service -->
-        <div class="service">
-          <h3>Design + Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-            pariatur, soluta doloremque cum unde quidem quis porro quae
-            temporibus non ullam beatae consectetur! Natus eveniet incidunt
-            blanditiis quos! Repudiandae, fuga.
-          </p>
-        </div>
-
-        <!-- service -->
-        <div class="service">
-          <h3>E-Commerce</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-            pariatur, soluta doloremque cum unde quidem quis porro quae
-            temporibus non ullam beatae consectetur! Natus eveniet incidunt
-            blanditiis quos! Repudiandae, fuga.
-          </p>
-        </div>
-
-        <!-- service -->
-        <div class="service">
-          <h3>Wordpress</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-            pariatur, soluta doloremque cum unde quidem quis porro quae
-            temporibus non ullam beatae consectetur! Natus eveniet incidunt
-            blanditiis quos! Repudiandae, fuga.
-          </p>
-        </div>
-      </div>
-
-      <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!-- About me -->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Designer & developer based out of India
-      </p>
-
-      <div class="about-me__body">
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
-          eveniet! Dolor facere, adipisci nostrum cumque quibusdam eos iure
-          commodi non excepturi fugit fugiat, minima perspiciatis tempore culpa.
-          Voluptas, voluptate blanditiis.
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quam
-          libero a quae tempore ullam doloremque, aliquid doloribus itaque
-          dolore excepturi est. Quod, nam eius? Iure velit tempora rerum
-          similique?
-        </p>
-      </div>
-
-      <img
-        class="about-me__img"
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TFa9_-2FLDRY8KvPip4bdxK2imF3LV2A4Q&s"
-        alt=""
-      />
-    </section>
-
-    <!-- Work -->
-    <section class="my-work" id="work">
-      <h2 class="section__title section__title--mywork">My Work</h2>
-      <p class="section__subtitle my-work__subtitle">
-        A seclection of my range of work
-      </p>
-
-      <div class="portfolio">
-        <a href="#" class="porfolio-item">
-          <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
-        </a>
-
-        <a href="#" class="porfolio-item">
-          <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
-        </a>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <a href="mailto:abc@outlook.com" class="footer__link">abc@outlook.com</a>
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="#">
-            <i class="fab fa-codepen"></i>
-          </a>
+<body>
+  <header>
+    <div class="logo">
+      <!-- <img class="" src="./images/A 2d photo realistic of a strong laughing wolf, cool attitude.png" alt=""> -->
+      <h1>Newbie</h1>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#home">Home</a></li>
+        <li class="nav__item">
+          <a class="nav__link" href="portfolio.html">Portfolio</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
+        <li class="nav__item">
+          <a class="nav__link" href="#services">My Services</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="#">
-            <i class="fab fa-youtube"></i>
-          </a>
+        <li class="nav__item">
+          <a class="nav__link" href="#about">About Me</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="#">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
+        <li class="nav__item"><a class="nav__link" href="#work">Work</a></li>
       </ul>
-    </footer>
-    <script src="./script/script.js"></script>
-  </body>
+    </nav>
+  </header>
+  <!-- Introduction -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I'm <strong>Newbie</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img class="intro__img loading=" lazy" src="./images/cute-handsome-anime-boy-blue.avif" alt="" />
+  </section>
+
+  <!-- My Services -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <!-- service -->
+      <div class="service">
+        <h3>Design + Development</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          pariatur, soluta doloremque cum unde quidem quis porro quae
+          temporibus non ullam beatae consectetur! Natus eveniet incidunt
+          blanditiis quos! Repudiandae, fuga.
+        </p>
+      </div>
+
+      <!-- service -->
+      <div class="service">
+        <h3>E-Commerce</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          pariatur, soluta doloremque cum unde quidem quis porro quae
+          temporibus non ullam beatae consectetur! Natus eveniet incidunt
+          blanditiis quos! Repudiandae, fuga.
+        </p>
+      </div>
+
+      <!-- service -->
+      <div class="service">
+        <h3>Wordpress</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+          pariatur, soluta doloremque cum unde quidem quis porro quae
+          temporibus non ullam beatae consectetur! Natus eveniet incidunt
+          blanditiis quos! Repudiandae, fuga.
+        </p>
+      </div>
+    </div>
+
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!-- About me -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">
+      Designer & developer based out of India
+    </p>
+
+    <div class="about-me__body">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+        eveniet! Dolor facere, adipisci nostrum cumque quibusdam eos iure
+        commodi non excepturi fugit fugiat, minima perspiciatis tempore culpa.
+        Voluptas, voluptate blanditiis.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quam
+        libero a quae tempore ullam doloremque, aliquid doloribus itaque
+        dolore excepturi est. Quod, nam eius? Iure velit tempora rerum
+        similique?
+      </p>
+    </div>
+
+    <img class="about-me__img"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TFa9_-2FLDRY8KvPip4bdxK2imF3LV2A4Q&s" alt="" />
+  </section>
+
+  <!-- Work -->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--mywork">My Work</h2>
+    <p class="section__subtitle my-work__subtitle">
+      A seclection of my range of work
+    </p>
+    <div class="portfolio">
+      <a href="#" class="porfolio-item">
+        <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/landscap1.webp" alt="" class="portfolio-img" />
+      </a>
+
+      <a href="#" class="porfolio-item">
+        <img src="./images/big-one.jpg" alt="" class="portfolio-img" />
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="mailto:abc@outlook.com" class="footer__link">abc@outlook.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <i class="fab fa-codepen"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="#">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <script src="./script/script.js"></script>
+</body>
 </html>
